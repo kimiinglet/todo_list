@@ -23,16 +23,13 @@ var update = function () {
 setInterval(update, 1000);
 
 
-
-
-
-localStorage 
-$("button").on("click", function (event) {
-    // alert("Button Clicked!");
-    event.preventDefault();
-    var input = $("input").val();
-    console.log(input);
-    localStorage.setItem("input", JSON.stringify(input));
-});
+// localStorage 
+// $("button").on("click", function (event) {
+//     // alert("Button Clicked!");
+//     event.preventDefault();
+//     var input = $("input").val();
+//     console.log(input);
+//     localStorage.setItem("input", JSON.stringify(input));
+// });
 
 // To clear use localStorage.clear()
