@@ -1,12 +1,39 @@
-# todo_list
+# Day Planner
 
-You can see my website here :
+I created a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+
+The app displays standard business hours (9 a.m. to 5 p.m.). Each time slot represents one hour and contain the following:
+
+* The time
+
+* A field to hold user input
+
+* A save button
+
+Clicking on the save button will store the time and user input in `localStorage`.
+
+Additionally, each hour is color coded to relect whether the time slot is in the past, the present, or the future that changes depending on the time of the day.
+
+## User Story
+
+AS AN employee with a busy schedule
+
+I WANT to add important events to a daily planner
+
+SO THAT I can manage my time effectively 
+
+## Business Context
+
+Poor time management can result in missed meetings and deadlines or create the appearance of unprofessionalism. A daily planner allows employees to see their day at a glance, schedule time effectively, and improve productivity. 
+
+Check it out: 
 
 https://kimiinglet.github.io/todo_list/
 
- here is a schedule for you to have hourly.
- <img width="1190" alt="Screen Shot 2019-12-20 at 11 51 14 PM" src="https://user-images.githubusercontent.com/56975796/71303821-a9856100-2383-11ea-99a7-8d5828f6bc15.png">
+https://github.com/kimiinglet/todo_list.git
 
- at the top it does show the current time as well as the time boxes will change.
 
- 
+
+<img src="./WorkDay.png">
+
+
